@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 设置根导航
         window = UIWindow()
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: HomeController())
+        window?.rootViewController = BaseslidingController()
+//        window?.rootViewController = UINavigationController(rootViewController: HomeController())
         return true
     }
 
