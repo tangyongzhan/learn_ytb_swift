@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8E74153222017B58001CAFB2"
-               BuildableName = "ytb_SwipingPageProject.app"
-               BlueprintName = "ytb_SwipingPageProject"
-               ReferencedContainer = "container:ytb_SwipingPageProject.xcodeproj">
+               BuildableName = "ytb_SwipingPage.app"
+               BlueprintName = "ytb_SwipingPage"
+               ReferencedContainer = "container:ytb_SwipingPage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E74153222017B58001CAFB2"
-            BuildableName = "ytb_SwipingPageProject.app"
-            BlueprintName = "ytb_SwipingPageProject"
-            ReferencedContainer = "container:ytb_SwipingPageProject.xcodeproj">
+            BuildableName = "ytb_SwipingPage.app"
+            BlueprintName = "ytb_SwipingPage"
+            ReferencedContainer = "container:ytb_SwipingPage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E74153222017B58001CAFB2"
-            BuildableName = "ytb_SwipingPageProject.app"
-            BlueprintName = "ytb_SwipingPageProject"
-            ReferencedContainer = "container:ytb_SwipingPageProject.xcodeproj">
+            BuildableName = "ytb_SwipingPage.app"
+            BlueprintName = "ytb_SwipingPage"
+            ReferencedContainer = "container:ytb_SwipingPage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8E74153222017B58001CAFB2"
-            BuildableName = "ytb_SwipingPageProject.app"
-            BlueprintName = "ytb_SwipingPageProject"
-            ReferencedContainer = "container:ytb_SwipingPageProject.xcodeproj">
+            BuildableName = "ytb_SwipingPage.app"
+            BlueprintName = "ytb_SwipingPage"
+            ReferencedContainer = "container:ytb_SwipingPage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
