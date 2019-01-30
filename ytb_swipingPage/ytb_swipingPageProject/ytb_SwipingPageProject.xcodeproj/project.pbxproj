@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8E74153722017B58001CAFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74153622017B58001CAFB2 /* AppDelegate.swift */; };
-		8E74153922017B58001CAFB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74153822017B58001CAFB2 /* ViewController.swift */; };
+		8E74153922017B58001CAFB2 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74153822017B58001CAFB2 /* SwipingController.swift */; };
 		8E74153C22017B58001CAFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E74153A22017B58001CAFB2 /* Main.storyboard */; };
 		8E74153E22017B59001CAFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E74153D22017B59001CAFB2 /* Assets.xcassets */; };
 		8E74154122017B59001CAFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E74153F22017B59001CAFB2 /* LaunchScreen.storyboard */; };
+		8E7415492201B3EC001CAFB2 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7415482201B3EC001CAFB2 /* Extensions+UIView.swift */; };
+		8E74154B2201B85D001CAFB2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74154A2201B85D001CAFB2 /* MenuController.swift */; };
+		8E74154E2201D162001CAFB2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74154D2201D162001CAFB2 /* MenuCell.swift */; };
+		8E7415512201D4E6001CAFB2 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7415502201D4E6001CAFB2 /* MainCell.swift */; };
+		8E7415532201F2AB001CAFB2 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7415522201F2AB001CAFB2 /* NewsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E74153322017B58001CAFB2 /* ytb_SwipingPageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ytb_SwipingPageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E74153622017B58001CAFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E74153822017B58001CAFB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E74153822017B58001CAFB2 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		8E74153B22017B58001CAFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E74153D22017B59001CAFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E74154022017B59001CAFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E74154222017B59001CAFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7415482201B3EC001CAFB2 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		8E74154A2201B85D001CAFB2 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8E74154D2201D162001CAFB2 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		8E7415502201D4E6001CAFB2 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		8E7415522201F2AB001CAFB2 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		8E74153522017B58001CAFB2 /* ytb_SwipingPageProject */ = {
 			isa = PBXGroup;
 			children = (
+				8E74154F2201D4B5001CAFB2 /* Main */,
+				8E74154C2201D143001CAFB2 /* Menu */,
 				8E74153622017B58001CAFB2 /* AppDelegate.swift */,
-				8E74153822017B58001CAFB2 /* ViewController.swift */,
+				8E7415482201B3EC001CAFB2 /* Extensions+UIView.swift */,
 				8E74153A22017B58001CAFB2 /* Main.storyboard */,
 				8E74153D22017B59001CAFB2 /* Assets.xcassets */,
 				8E74153F22017B59001CAFB2 /* LaunchScreen.storyboard */,
 				8E74154222017B59001CAFB2 /* Info.plist */,
 			);
 			path = ytb_SwipingPageProject;
+			sourceTree = "<group>";
+		};
+		8E74154C2201D143001CAFB2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8E74154D2201D162001CAFB2 /* MenuCell.swift */,
+				8E74154A2201B85D001CAFB2 /* MenuController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8E74154F2201D4B5001CAFB2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E74153822017B58001CAFB2 /* SwipingController.swift */,
+				8E7415502201D4E6001CAFB2 /* MainCell.swift */,
+				8E7415522201F2AB001CAFB2 /* NewsController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E74153922017B58001CAFB2 /* ViewController.swift in Sources */,
+				8E74154B2201B85D001CAFB2 /* MenuController.swift in Sources */,
+				8E74154E2201D162001CAFB2 /* MenuCell.swift in Sources */,
+				8E7415512201D4E6001CAFB2 /* MainCell.swift in Sources */,
+				8E7415532201F2AB001CAFB2 /* NewsController.swift in Sources */,
+				8E74153922017B58001CAFB2 /* SwipingController.swift in Sources */,
 				8E74153722017B58001CAFB2 /* AppDelegate.swift in Sources */,
+				8E7415492201B3EC001CAFB2 /* Extensions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
