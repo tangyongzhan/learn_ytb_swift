@@ -125,7 +125,6 @@
 			children = (
 				8E0B218B21EB45E70079C81C /* CustomMenuHeaderView.swift */,
 				8E0B218D21EB4B7B0079C81C /* SpacerView.swift */,
-				8E48AE1C21EDEB1E0004487B /* Extensions+UIView.swift */,
 				8E0B218F21EB57C80079C81C /* ProfileImageView.swift */,
 				8E0B219121EB8A7D0079C81C /* MenuItemCell.swift */,
 				8E48AE1721EDE9AE0004487B /* ChatMenuItemCell.swift */,
@@ -137,6 +136,7 @@
 		8E48AE1B21EDEB0B0004487B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8E48AE1C21EDEB1E0004487B /* Extensions+UIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -374,15 +374,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MW7T7K7N92;
 				INFOPLIST_FILE = ytb_twitterSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yongzhan.ytb-twitterSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,15 +395,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MW7T7K7N92;
 				INFOPLIST_FILE = ytb_twitterSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yongzhan.ytb-twitterSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

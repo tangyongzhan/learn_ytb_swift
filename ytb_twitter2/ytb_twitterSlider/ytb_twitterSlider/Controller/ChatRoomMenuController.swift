@@ -16,7 +16,6 @@ extension ChatRoomMenuController: UISearchBarDelegate {
             return
         }
         filterChatRoomsGroup = chatRoomsGroup.map { (group) -> [String] in
-            print(group.filter{ $0.lowercased().contains(searchText.lowercased())})
             return group.filter{ $0.lowercased().contains(searchText.lowercased())}
         }
         tableView.reloadData()
