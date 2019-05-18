@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013AF05C264B0B0AF8C08A3688678E4C /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054381B723BDAC6F9F1FBC29A5EFC8DE /* IndentedTextField.swift */; };
+		21D86AB2E405297002FB820455D05DA3 /* UIView+Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78FA12F50E0E39605AA449DE82E6E3E /* UIView+Stacking.swift */; };
+		2F467E307B1A271E7F2D31D8C434906E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		2F47A6D3CF04C113E2A966F5AB5EAC2B /* LBTAFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AC8A1104C771F241677FD8DF216AF0 /* LBTAFormController.swift */; };
+		46A52CEAC6493664720C802FB6BD38C1 /* LBTAListHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5FFA92A6EA40BF02EB0C50F644E9C /* LBTAListHeaderController.swift */; };
+		5A417EC8F87691C72AC3C98C0D2FE05A /* UITextField+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43A93110170A0657696AF151DA6B1AB /* UITextField+Tools.swift */; };
+		6A2173E3A660C462FCD54F2DC23DDDFF /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668C151A216BC561A4FF61042FB3944 /* CircularImageView.swift */; };
+		6D7140B03CB1D6DCA2DE0549131B3BAA /* LBTAListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D6A2124260FD51D1D76A7BF2A9984 /* LBTAListCell.swift */; };
+		7B5B388D9591A80ECC307E1D7EECCAF6 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD5ABB87C49BA93E62A465AE26EEB0 /* UIButton.swift */; };
+		872BB0BE98192AE1704139D5F9C0CDD0 /* AspectFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8F1F1C20AD49472AD821A3CC2F085 /* AspectFitImageView.swift */; };
+		991191DCB0B42BE24A43D183A8E8B63E /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD65F93841144474B5907EAFBEDF55 /* UIColor+Helpers.swift */; };
+		A6A8B0878CAF7681FE7DE8A1DA7F7ACA /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A873C4A109F424C406B149183B7EA /* UILabel.swift */; };
+		A829B60707809A0EFCF45287708CA652 /* Pods-ytb_lbtatools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A6D909C9A8483A7E0DACED4EBCC70C /* Pods-ytb_lbtatools-dummy.m */; };
+		A9AB80871BF0272450092B07654DB165 /* LBTATools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC932C209AD52D309005CEE4C7D4C92 /* LBTATools-dummy.m */; };
+		A9C298418A620DB62918952E1124901A /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC72D23E1AABD25BE7826FCC630F2 /* UIView+Layout.swift */; };
+		AC9B1E1F34DC802258B428FFD29DD640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AD3601A06101CB6341F2600ACB4FACF4 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4ABA7AAE743E95692B19EEB2A1D4CF /* UIStackView.swift */; };
+		BABD61FEE8F013B8DB9395EF45E86045 /* LBTATools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B772A10F765C7E162D2CDA5374C118 /* LBTATools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBAD61FF2F9322AE656711FC2256FF8 /* Pods-ytb_lbtatools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5283BCAF8A06CFD41C4498CEED7702A4 /* Pods-ytb_lbtatools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED93155ADEC79EE91BD33D94DF054AB8 /* LBTAListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAEC681C7CB0E0FAA9F820605507114 /* LBTAListController.swift */; };
+		F3747CD78251A559195B3CD1B04CE3E7 /* AnchoredConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16F25414EEF0A59B4B1C3D16003CA /* AnchoredConstraints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7373B954A1174EE068DEF51B17CC6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C03C8C552E5A07AD19ACCBEEC7D9A26;
+			remoteInfo = LBTATools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EC9CDAFFF442FB2F9D4689DC33D565 /* Pods-ytb_lbtatools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ytb_lbtatools.debug.xcconfig"; sourceTree = "<group>"; };
+		033486B258C531DF596C68EC926F47EA /* LBTATools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTATools-Info.plist"; sourceTree = "<group>"; };
+		054381B723BDAC6F9F1FBC29A5EFC8DE /* IndentedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndentedTextField.swift; path = Source/Extensions/IndentedTextField.swift; sourceTree = "<group>"; };
+		1D4ABA7AAE743E95692B19EEB2A1D4CF /* UIStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackView.swift; path = Source/Extensions/UIStackView.swift; sourceTree = "<group>"; };
+		1DC932C209AD52D309005CEE4C7D4C92 /* LBTATools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTATools-dummy.m"; sourceTree = "<group>"; };
+		1E906C090DF94A54572C5061CB71819F /* LBTATools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTATools.framework; path = LBTATools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FD5ABB87C49BA93E62A465AE26EEB0 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Source/Extensions/UIButton.swift; sourceTree = "<group>"; };
+		39969AC83CAB0C566554B465F9AE8FC2 /* LBTATools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-prefix.pch"; sourceTree = "<group>"; };
+		3FF16F25414EEF0A59B4B1C3D16003CA /* AnchoredConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchoredConstraints.swift; path = Source/AnchoredConstraints.swift; sourceTree = "<group>"; };
+		40A6D909C9A8483A7E0DACED4EBCC70C /* Pods-ytb_lbtatools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ytb_lbtatools-dummy.m"; sourceTree = "<group>"; };
+		47A1A27CC670B553E30B42CD22CEA0D4 /* Pods-ytb_lbtatools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ytb_lbtatools.release.xcconfig"; sourceTree = "<group>"; };
+		487D6A2124260FD51D1D76A7BF2A9984 /* LBTAListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListCell.swift; path = Source/ListController/LBTAListCell.swift; sourceTree = "<group>"; };
+		4AFD65F93841144474B5907EAFBEDF55 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "Source/UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		5283BCAF8A06CFD41C4498CEED7702A4 /* Pods-ytb_lbtatools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ytb_lbtatools-umbrella.h"; sourceTree = "<group>"; };
+		5AAEC681C7CB0E0FAA9F820605507114 /* LBTAListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListController.swift; path = Source/ListController/LBTAListController.swift; sourceTree = "<group>"; };
+		6331A24056E73B17D6BD00253A98ACDD /* Pods-ytb_lbtatools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ytb_lbtatools-Info.plist"; sourceTree = "<group>"; };
+		6C2EC9BABE42EE1B716328CD723FB441 /* Pods-ytb_lbtatools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ytb_lbtatools.modulemap"; sourceTree = "<group>"; };
+		70B772A10F765C7E162D2CDA5374C118 /* LBTATools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-umbrella.h"; sourceTree = "<group>"; };
+		8B12F9C00C153142268E08EC4FEE9FC0 /* LBTATools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTATools.modulemap; sourceTree = "<group>"; };
+		9668C151A216BC561A4FF61042FB3944 /* CircularImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularImageView.swift; path = Source/UIKitSubclasses/CircularImageView.swift; sourceTree = "<group>"; };
+		9BB516ECF0483EBC2250A11BD8759946 /* Pods-ytb_lbtatools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ytb_lbtatools-frameworks.sh"; sourceTree = "<group>"; };
+		9CB5FFA92A6EA40BF02EB0C50F644E9C /* LBTAListHeaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListHeaderController.swift; path = Source/ListController/LBTAListHeaderController.swift; sourceTree = "<group>"; };
+		A63DCDCA3CDBDC33261E666E9D73574B /* LBTATools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTATools.xcconfig; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0F8F1F1C20AD49472AD821A3CC2F085 /* AspectFitImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AspectFitImageView.swift; path = Source/Extensions/AspectFitImageView.swift; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D78FA12F50E0E39605AA449DE82E6E3E /* UIView+Stacking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Stacking.swift"; path = "Source/Extensions/UIView+Stacking.swift"; sourceTree = "<group>"; };
+		D90C2DA8868C2CC7D1EDCC3C0E6A0A0C /* Pods_ytb_lbtatools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ytb_lbtatools.framework; path = "Pods-ytb_lbtatools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3925870567A2B9AEB563718C399D24 /* Pods-ytb_lbtatools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ytb_lbtatools-acknowledgements.plist"; sourceTree = "<group>"; };
+		E43A93110170A0657696AF151DA6B1AB /* UITextField+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Tools.swift"; path = "Source/Extensions/UITextField+Tools.swift"; sourceTree = "<group>"; };
+		E79A873C4A109F424C406B149183B7EA /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Source/Extensions/UILabel.swift; sourceTree = "<group>"; };
+		E7AC8A1104C771F241677FD8DF216AF0 /* LBTAFormController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAFormController.swift; path = Source/Form/LBTAFormController.swift; sourceTree = "<group>"; };
+		E8AE53AF8DBEE534202BB4F789CC93E1 /* Pods-ytb_lbtatools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ytb_lbtatools-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2DFC72D23E1AABD25BE7826FCC630F2 /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Source/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F60700AC0CEE2D0F60B9BB5D060D500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F467E307B1A271E7F2D31D8C434906E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAB06A65E967ED596990B98A8011844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B1E1F34DC802258B428FFD29DD640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1787BFDEC8ADB39884D01A237BBD23DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C090DF94A54572C5061CB71819F /* LBTATools.framework */,
+				D90C2DA8868C2CC7D1EDCC3C0E6A0A0C /* Pods_ytb_lbtatools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3037D95A9ACD8B242639DB2728DDFB90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DFFA9C60ADFB2798AC3B753B4B9BB6 /* LBTATools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48949FE5B0740750D32BA69D50A47EA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE6770D5717115593D4B93F6A476CF26 /* Pods-ytb_lbtatools */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3037D95A9ACD8B242639DB2728DDFB90 /* Pods */,
+				1787BFDEC8ADB39884D01A237BBD23DF /* Products */,
+				48949FE5B0740750D32BA69D50A47EA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90DFFA9C60ADFB2798AC3B753B4B9BB6 /* LBTATools */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16F25414EEF0A59B4B1C3D16003CA /* AnchoredConstraints.swift */,
+				C0F8F1F1C20AD49472AD821A3CC2F085 /* AspectFitImageView.swift */,
+				9668C151A216BC561A4FF61042FB3944 /* CircularImageView.swift */,
+				054381B723BDAC6F9F1FBC29A5EFC8DE /* IndentedTextField.swift */,
+				E7AC8A1104C771F241677FD8DF216AF0 /* LBTAFormController.swift */,
+				487D6A2124260FD51D1D76A7BF2A9984 /* LBTAListCell.swift */,
+				5AAEC681C7CB0E0FAA9F820605507114 /* LBTAListController.swift */,
+				9CB5FFA92A6EA40BF02EB0C50F644E9C /* LBTAListHeaderController.swift */,
+				37FD5ABB87C49BA93E62A465AE26EEB0 /* UIButton.swift */,
+				4AFD65F93841144474B5907EAFBEDF55 /* UIColor+Helpers.swift */,
+				E79A873C4A109F424C406B149183B7EA /* UILabel.swift */,
+				1D4ABA7AAE743E95692B19EEB2A1D4CF /* UIStackView.swift */,
+				E43A93110170A0657696AF151DA6B1AB /* UITextField+Tools.swift */,
+				F2DFC72D23E1AABD25BE7826FCC630F2 /* UIView+Layout.swift */,
+				D78FA12F50E0E39605AA449DE82E6E3E /* UIView+Stacking.swift */,
+				BBB907753260DCC04E9ADA7A76B8478C /* Support Files */,
+			);
+			name = LBTATools;
+			path = LBTATools;
+			sourceTree = "<group>";
+		};
+		BBB907753260DCC04E9ADA7A76B8478C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B12F9C00C153142268E08EC4FEE9FC0 /* LBTATools.modulemap */,
+				A63DCDCA3CDBDC33261E666E9D73574B /* LBTATools.xcconfig */,
+				1DC932C209AD52D309005CEE4C7D4C92 /* LBTATools-dummy.m */,
+				033486B258C531DF596C68EC926F47EA /* LBTATools-Info.plist */,
+				39969AC83CAB0C566554B465F9AE8FC2 /* LBTATools-prefix.pch */,
+				70B772A10F765C7E162D2CDA5374C118 /* LBTATools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTATools";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE6770D5717115593D4B93F6A476CF26 /* Pods-ytb_lbtatools */ = {
+			isa = PBXGroup;
+			children = (
+				6C2EC9BABE42EE1B716328CD723FB441 /* Pods-ytb_lbtatools.modulemap */,
+				E8AE53AF8DBEE534202BB4F789CC93E1 /* Pods-ytb_lbtatools-acknowledgements.markdown */,
+				DF3925870567A2B9AEB563718C399D24 /* Pods-ytb_lbtatools-acknowledgements.plist */,
+				40A6D909C9A8483A7E0DACED4EBCC70C /* Pods-ytb_lbtatools-dummy.m */,
+				9BB516ECF0483EBC2250A11BD8759946 /* Pods-ytb_lbtatools-frameworks.sh */,
+				6331A24056E73B17D6BD00253A98ACDD /* Pods-ytb_lbtatools-Info.plist */,
+				5283BCAF8A06CFD41C4498CEED7702A4 /* Pods-ytb_lbtatools-umbrella.h */,
+				01EC9CDAFFF442FB2F9D4689DC33D565 /* Pods-ytb_lbtatools.debug.xcconfig */,
+				47A1A27CC670B553E30B42CD22CEA0D4 /* Pods-ytb_lbtatools.release.xcconfig */,
+			);
+			name = "Pods-ytb_lbtatools";
+			path = "Target Support Files/Pods-ytb_lbtatools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59349DA2AC2370254E82B498319852F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBAD61FF2F9322AE656711FC2256FF8 /* Pods-ytb_lbtatools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC01A85BBA1A554A710356DB07A87E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABD61FEE8F013B8DB9395EF45E86045 /* LBTATools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C03C8C552E5A07AD19ACCBEEC7D9A26 /* LBTATools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB0C6F7C879D8C7E6309274210AC745 /* Build configuration list for PBXNativeTarget "LBTATools" */;
+			buildPhases = (
+				5EC01A85BBA1A554A710356DB07A87E2 /* Headers */,
+				2EE35AF76462C48E6107BF945E84CBC3 /* Sources */,
+				FCAB06A65E967ED596990B98A8011844 /* Frameworks */,
+				DB8B4AF723037875C98E9EAF32E99449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTATools;
+			productName = LBTATools;
+			productReference = 1E906C090DF94A54572C5061CB71819F /* LBTATools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D56DC0A238AB1EEA3B18CE0469930A6B /* Pods-ytb_lbtatools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05543488574A482E8A1EE1453377CD51 /* Build configuration list for PBXNativeTarget "Pods-ytb_lbtatools" */;
+			buildPhases = (
+				59349DA2AC2370254E82B498319852F4 /* Headers */,
+				46CD7E4AF3F34A3AAA2CDECD271F7002 /* Sources */,
+				5F60700AC0CEE2D0F60B9BB5D060D500 /* Frameworks */,
+				BE72F3977937242C69BA90CFC71A18D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F397CEEF0F3F198640470B73639F6B /* PBXTargetDependency */,
+			);
+			name = "Pods-ytb_lbtatools";
+			productName = "Pods-ytb_lbtatools";
+			productReference = D90C2DA8868C2CC7D1EDCC3C0E6A0A0C /* Pods_ytb_lbtatools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1787BFDEC8ADB39884D01A237BBD23DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C03C8C552E5A07AD19ACCBEEC7D9A26 /* LBTATools */,
+				D56DC0A238AB1EEA3B18CE0469930A6B /* Pods-ytb_lbtatools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE72F3977937242C69BA90CFC71A18D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8B4AF723037875C98E9EAF32E99449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE35AF76462C48E6107BF945E84CBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3747CD78251A559195B3CD1B04CE3E7 /* AnchoredConstraints.swift in Sources */,
+				872BB0BE98192AE1704139D5F9C0CDD0 /* AspectFitImageView.swift in Sources */,
+				6A2173E3A660C462FCD54F2DC23DDDFF /* CircularImageView.swift in Sources */,
+				013AF05C264B0B0AF8C08A3688678E4C /* IndentedTextField.swift in Sources */,
+				2F47A6D3CF04C113E2A966F5AB5EAC2B /* LBTAFormController.swift in Sources */,
+				6D7140B03CB1D6DCA2DE0549131B3BAA /* LBTAListCell.swift in Sources */,
+				ED93155ADEC79EE91BD33D94DF054AB8 /* LBTAListController.swift in Sources */,
+				46A52CEAC6493664720C802FB6BD38C1 /* LBTAListHeaderController.swift in Sources */,
+				A9AB80871BF0272450092B07654DB165 /* LBTATools-dummy.m in Sources */,
+				7B5B388D9591A80ECC307E1D7EECCAF6 /* UIButton.swift in Sources */,
+				991191DCB0B42BE24A43D183A8E8B63E /* UIColor+Helpers.swift in Sources */,
+				A6A8B0878CAF7681FE7DE8A1DA7F7ACA /* UILabel.swift in Sources */,
+				AD3601A06101CB6341F2600ACB4FACF4 /* UIStackView.swift in Sources */,
+				5A417EC8F87691C72AC3C98C0D2FE05A /* UITextField+Tools.swift in Sources */,
+				A9C298418A620DB62918952E1124901A /* UIView+Layout.swift in Sources */,
+				21D86AB2E405297002FB820455D05DA3 /* UIView+Stacking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CD7E4AF3F34A3AAA2CDECD271F7002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A829B60707809A0EFCF45287708CA652 /* Pods-ytb_lbtatools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F397CEEF0F3F198640470B73639F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTATools;
+			target = 4C03C8C552E5A07AD19ACCBEEC7D9A26 /* LBTATools */;
+			targetProxy = A7373B954A1174EE068DEF51B17CC6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D07138C99149B935ECD094D41D57182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75CFE4923FC408BF27A87FE3E9DA9063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63DCDCA3CDBDC33261E666E9D73574B /* LBTATools.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		821728DAEBD25EC8C90CBB9490744367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A1A27CC670B553E30B42CD22CEA0D4 /* Pods-ytb_lbtatools.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ytb_lbtatools/Pods-ytb_lbtatools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ytb_lbtatools/Pods-ytb_lbtatools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5327E8F3BDF52C30A54244456A4E107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCB22533ACE918DBDCCB6BAF98828128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63DCDCA3CDBDC33261E666E9D73574B /* LBTATools.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1483B3AD974F6F260EFA773F623DC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EC9CDAFFF442FB2F9D4689DC33D565 /* Pods-ytb_lbtatools.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ytb_lbtatools/Pods-ytb_lbtatools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ytb_lbtatools/Pods-ytb_lbtatools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05543488574A482E8A1EE1453377CD51 /* Build configuration list for PBXNativeTarget "Pods-ytb_lbtatools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1483B3AD974F6F260EFA773F623DC38 /* Debug */,
+				821728DAEBD25EC8C90CBB9490744367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D07138C99149B935ECD094D41D57182 /* Debug */,
+				B5327E8F3BDF52C30A54244456A4E107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB0C6F7C879D8C7E6309274210AC745 /* Build configuration list for PBXNativeTarget "LBTATools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CFE4923FC408BF27A87FE3E9DA9063 /* Debug */,
+				DCB22533ACE918DBDCCB6BAF98828128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
